@@ -27,9 +27,7 @@ If the import does not work follow the steps below.
 - Add data/ as src
 
 
-TROUBLE SHOOTING
 
-Switch Java Compiler to 1.6 if you get VM problems. (Processing should work with Java 1.6, and 1.7)
 
 
 
