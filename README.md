@@ -1,38 +1,35 @@
-***********************
-Unfolding - Map Library
-***********************
-Copyright (C) 2015 Till Nagel, and contributors
+Object Oriented Programming in Java: Course Project
+=========================================
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository contains my work for the Object Oriented Programming in Java course offered by 
+UC San Diego through Coursera, part 1 of 5 in the Java Programming: Object-Oriented Design of Data Structures specialization. 
+It uses Unfolding Map and Processing in Eclipse.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- THE SOFTWARE.
- 
-**************************************
-Airline/Airport data - OpenFlights.org
-**************************************
-This stater code includes the databases airports.dat and routes.dat.
-These databases were downloaded from 
+The module folders contains the modified starter code and solutions to the required programming assignments
+associated with the MOOC.
 
-http://openflights.org/data.html
+INSTALLATION
+------------
 
-and are covered under the Open Database License (ODbL) v1.0.  
-The link to the full license is here:
-http://opendatacommons.org/licenses/odbl/1.0/
+Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into
+Workspace', Select this folder, 'Finish')
 
-If you redistribute or otherwise use this data outside of this project,
-please read and follow the restrictions in the above license.
- 
+
+MANUAL INSTALLATION
+
+If the import does not work follow the steps below.
+
+- Create new Java project
+- Copy+Paste all files into project
+- Add all lib/*.jars to build path
+- Set native library location for jogl.jar. Choose appropriate folder for your OS.
+- Add data/ as src
+
+
+TROUBLE SHOOTING
+
+Switch Java Compiler to 1.6 if you get VM problems. (Processing should work with Java 1.6, and 1.7)
+
+
+
